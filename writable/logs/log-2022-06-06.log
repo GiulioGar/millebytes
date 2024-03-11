@@ -1,0 +1,288 @@
+ERROR - 2022-06-06 00:07:07 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:07:07 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:08:45 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:08:45 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:08:46 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:08:46 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:08:47 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:08:47 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:09:04 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:09:04 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:09:05 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:09:05 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:09:19 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:09:19 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:10:48 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:10:48 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:11:12 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:11:12 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:11:13 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:11:13 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:11:56 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:11:56 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(480): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationActive()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:17:59 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:17:59 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:21:33 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:21:33 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:25:50 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:25:50 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:27:11 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:27:11 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:27:12 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:27:12 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:38:23 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:38:23 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/millebytes/app/Controllers/User.php(48): CodeIgniter\BaseModel->first()
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->auth()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 00:43:23 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:43:23 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:44:12 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:44:12 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:44:46 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:44:46 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:45:37 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:45:37 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:45:52 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:45:52 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/app/Controllers/Home.php(373): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->registrationConfirm()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-06 00:47:53 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-06-06 00:47:53 --> Unable to connect to the database.
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/millebytes/app/Controllers/User.php(48): CodeIgniter\BaseModel->first()
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->auth()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 03:33:34 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-06 09:11:54 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-06 10:24:59 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-06 11:20:18 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-06 12:07:04 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,255 @@
+ERROR - 2022-10-13 00:28:44 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 02:17:07 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 02:17:43 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 02:43:16 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 03:26:49 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 03:45:11 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 03:52:56 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 07:24:31 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 08:31:39 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 11:39:04 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 12:51:34 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 14:26:39 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 16:12:28 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 16:13:35 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 16:16:42 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 18:26:42 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-13 18:26:45 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(226): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

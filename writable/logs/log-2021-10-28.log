@@ -1,0 +1,24 @@
+CRITICAL - 2021-10-28 03:03:02 --> Call to a member function get() on null
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doCart()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-28 03:03:10 --> Call to a member function get() on null
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doCart()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-28 03:04:46 --> Call to a member function get() on null
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doCart()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-28 03:05:47 --> Call to a member function get() on null
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doCart()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

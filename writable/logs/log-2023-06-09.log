@@ -1,0 +1,412 @@
+ERROR - 2023-06-09 02:31:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:32:42 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/app/Controllers/User.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profiloEdit()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-09 02:32:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:33:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:33:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:33:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:33:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:33:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:33:53 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/app/Controllers/User.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profiloEdit()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-09 02:34:21 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 02:35:48 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 03:26:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 03:26:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 04:10:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 04:26:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 04:47:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 05:35:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 06:22:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 06:24:03 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 08:40:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 08:46:35 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-09 08:50:17 --> filesize(): stat failed for /var/www/millebytes/writable/session/ci_session3f70vngs2t177rd3k3pc92o7oohn9mfs
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(190): filesize()
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/Session/Session.php(1027): session_start()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/Session/Session.php(226): CodeIgniter\Session\Session->startSession()
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/Config/Services.php(714): CodeIgniter\Session\Session->start()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Config/BaseService.php(100): CodeIgniter\Config\Services::session()
+#7 /var/www/millebytes/vendor/codeigniter4/framework/system/Config/Services.php(699): CodeIgniter\Config\BaseService::getSharedInstance()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/Config/BaseService.php(171): CodeIgniter\Config\Services::session()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(999): CodeIgniter\Config\BaseService::__callStatic()
+#10 /var/www/millebytes/app/Controllers/User.php(140): session()
+#11 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->logout()
+#12 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#13 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#14 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-06-09 08:53:59 --> unlink(/var/www/millebytes/writable/session/ci_session64ilo0eiu1bmmd39o36ocrlvpu21c35p): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(306): unlink()
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->destroy()
+#3 /var/www/millebytes/vendor/codeigniter4/framework/system/Session/Session.php(464): session_destroy()
+#4 /var/www/millebytes/app/Controllers/User.php(141): CodeIgniter\Session\Session->destroy()
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->logout()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-09 08:58:12 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 12:07:14 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 12:08:42 --> mysqli_sql_exception: Table 'millebytesdb.works' doesn't exist in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 12:20:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-09 20:58:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 in /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/millebytes/app/Views/profile.php(8): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(220): include('/var/www/milleb...')
+#5 /var/www/millebytes/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/millebytes/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render()
+#7 /var/www/millebytes/app/Controllers/User.php(234): view()
+#8 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#9 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

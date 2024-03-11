@@ -1,0 +1,26 @@
+CRITICAL - 2021-10-13 02:40:30 --> require(../vendor/phpmailer/src/Exception.php): failed to open stream: No such file or directory
+#0 /var/www/html/millebytes/app/Controllers/Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/millebytes/app/Controllers/Home.php(10): require()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(342): include_once('/var/www/html/m...')
+#3 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 [internal function]: spl_autoload_call()
+#7 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(892): class_exists()
+#8 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#9 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-13 11:40:18 --> require(../vendor/phpmailer/src/Exception.php): failed to open stream: No such file or directory
+#0 /var/www/html/millebytes/app/Controllers/Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/millebytes/app/Controllers/Home.php(10): require()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(342): include_once('/var/www/html/m...')
+#3 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 [internal function]: spl_autoload_call()
+#7 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(892): class_exists()
+#8 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#9 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

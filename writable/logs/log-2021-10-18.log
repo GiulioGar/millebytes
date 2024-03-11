@@ -1,0 +1,11 @@
+ERROR - 2021-10-18 03:28:39 --> mysqli_sql_exception: Table 'millebytes_testdb.works' doesn't exist in /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/millebytes/app/Controllers/User.php(199): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\User->profilo()
+#5 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

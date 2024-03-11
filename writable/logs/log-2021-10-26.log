@@ -1,0 +1,78 @@
+CRITICAL - 2021-10-26 05:02:35 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:21:37 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:23:05 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:24:29 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:25:08 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:25:20 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:25:44 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:25:57 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:27:02 --> Call to undefined function App\Controllers\generateUID()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:28:20 --> Call to a member function getVar() on array
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:37:44 --> Call to a member function getVar() on array
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:39:32 --> Call to a member function getVar() on array
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 05:39:51 --> Call to a member function getVar() on array
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->doRegister()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

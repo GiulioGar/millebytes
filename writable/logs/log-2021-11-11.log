@@ -1,0 +1,23 @@
+ERROR - 2021-11-11 10:01:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/millebytes/app/Controllers/Api.php(574): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->getPage()
+#5 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-11 12:05:18 --> Call to undefined function App\Controllers\dateIta()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->getCart()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 12:05:18 --> Call to undefined function App\Controllers\dateIta()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->getCart()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2023-04-08 00:13:44 --> Invalid HTTP Protocol Version. Must be one of: 1.0, 1.1, 2.0
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/HTTP/MessageTrait.php(262): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidHTTPProtocol()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(599): CodeIgniter\HTTP\Message->setProtocolVersion()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->getRequestObject()
+#3 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-08 12:18:19 --> Invalid HTTP Protocol Version. Must be one of: 1.0, 1.1, 2.0
+#0 /var/www/millebytes/vendor/codeigniter4/framework/system/HTTP/MessageTrait.php(262): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidHTTPProtocol()
+#1 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(599): CodeIgniter\HTTP\Message->setProtocolVersion()
+#2 /var/www/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->getRequestObject()
+#3 /var/www/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

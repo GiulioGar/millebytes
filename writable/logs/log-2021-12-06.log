@@ -1,0 +1,6 @@
+CRITICAL - 2021-12-06 09:07:28 --> Call to undefined function App\Controllers\sendMessage()
+#0 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Api->testPush()
+#1 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/millebytes/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/millebytes/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
